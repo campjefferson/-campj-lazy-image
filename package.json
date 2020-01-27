@@ -1,0 +1,23 @@
+{
+  "name": "@campj/lazy-image",
+  "version": "0.0.2",
+  "repository": "https://github.com/campjefferson/-campj-lazy-image.git",
+  "description": "Camp Jefferson Lazy Image",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "microbundle --compress",
+    "build:dev": "microbundle watch",
+    "prepublish": "npm run build"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "source": "src/index.js",
+  "keywords": [
+    "Eleventy"
+  ],
+  "author": "Camp Jefferson Dev <dev@campjefferson.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "microbundle": "^0.11.0"
+  }
+}
