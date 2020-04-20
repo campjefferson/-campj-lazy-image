@@ -1,7 +1,7 @@
 const DEFAULT_THRESHOLD_STEPS = 10;
 const DEFAULT_THRESHOLD = Array.from({
   length: DEFAULT_THRESHOLD_STEPS + 1
-}).map((_, idx) => (idx / DEFAULT_THRESHOLD_STEPS).toFixed(2));
+}).map((_, idx) => parseFloat((idx / DEFAULT_THRESHOLD_STEPS).toFixed(2)));
 
 // class wraps each image element that has a data-src attribute
 // (this might be a bit presumptuous, should investigate and maybe apply a data-lazy attribute instead)

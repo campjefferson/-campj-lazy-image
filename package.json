@@ -1,6 +1,6 @@
 {
   "name": "@campj/lazy-image",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "repository": "https://github.com/campjefferson/-campj-lazy-image.git",
   "description": "Camp Jefferson Lazy Image",
   "scripts": {
